@@ -49,6 +49,7 @@
          border-radius: 24px;
          width: 92px;
          height: 92px;
+         margin-bottom: 30px;
 
          &:hover {
             background: #24A3FF;
@@ -60,14 +61,17 @@
          font-size: 22px;
          line-height: 27px;
          color: #24A3FF;
-         padding-top: 30px;
-         padding-bottom: 15px;
+
+         &:hover {
+            color: #F0145A;
+         }
       }
 
       &-text {
          font-size: 16px;
          line-height: 26px;
          color: #FFFFFF;
+         margin-top: 15px;
       }
    }
 }
