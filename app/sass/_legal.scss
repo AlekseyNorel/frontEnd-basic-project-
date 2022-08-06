@@ -1,0 +1,66 @@
+.legal {
+   &__title {
+      font-weight: 700;
+      font-size: 38px;
+      line-height: 46px;
+      text-align: center;
+      color: #FFFFFF;
+      padding-top: 130px;
+      margin: 0;
+   }
+
+   &__btn {
+      background-image: url(../img/main/scroll.svg);
+      background-color: transparent;
+      background-repeat: no-repeat;
+      cursor: pointer;
+      width: 42px;
+      height: 42px;
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 60px;
+      margin-top: 160px;
+
+      &:hover {
+         background-image: url(../img/main/scroll_hover.svg);
+      }
+   }
+}
+
+@media screen and (min-width: 767px) {
+   .legal {
+      &__title {
+         padding-top: 270px;
+
+      }
+
+      &__btn {
+         margin-top: 415px;
+         margin-bottom: 90px;
+      }
+   }
+}
+
+@media screen and (min-width: 1024px) {
+   .legal {
+      &__title {
+         padding-top: 245px;
+      }
+
+      &__btn {
+         margin-top: 290px;
+      }
+   }
+}
+
+@media screen and (min-width: 1440px) {
+   .legal {
+      &__title {
+         padding-top: 260px;
+      }
+
+      &__btn {
+         margin-top: 265px;
+      }
+   }
+}

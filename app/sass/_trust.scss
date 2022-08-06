@@ -1,0 +1,89 @@
+.trust {
+   &__title {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 17px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #323264;
+      padding: 60px 0 30px;
+      text-align: center;
+      align-items: center;
+   }
+
+   &__card {
+      min-height: 120px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &-01 {
+         background: #1C4280;
+      }
+
+      &-02 {
+         background: #143646;
+      }
+
+      &-03 {
+         background: linear-gradient(0deg, #F48B30, #F48B30), #F48B30;
+      }
+
+      &-04 {
+         background: #9E4DC3;
+      }
+
+      &-05 {
+         background: #FD9339;
+      }
+
+      &-06 {
+         background: #E2E2E4;
+      }
+
+      &-07 {
+         background: #C71C36;
+      }
+
+      &-08 {
+         background: #DCF3F9;
+      }
+
+      &-09 {
+         background: #EAEAEA;
+      }
+
+      &-10 {
+         background: #282240;
+      }
+
+      &-11 {
+         background: #1D4568;
+      }
+
+      &-12 {
+         background: #000000
+      }
+   }
+}
+
+@media screen and (min-width: 767px) {
+   .trust {
+      &__card {
+         width: 33.333%;
+
+         &-wrap {
+            display: flex;
+            flex-wrap: wrap;
+         }
+      }
+   }
+}
+
+@media screen and (min-width: 1024px) {
+   .trust {
+      &__card {
+         width: 25%;
+      }
+   }
+}

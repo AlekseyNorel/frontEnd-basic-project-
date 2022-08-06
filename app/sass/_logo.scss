@@ -1,0 +1,53 @@
+.logo {
+   display: flex;
+   align-items: center;
+
+   &__link {
+      padding: 15px 0 10px 15px;
+   }
+
+   &__link svg {
+      width: 70px;
+      height: 33px;
+   }
+}
+
+@media screen and (min-width: 767px) {
+   .logo {
+      grid-column: span 2;
+
+      &__link {
+         padding-left: 60px;
+         padding-bottom: 30px;
+      }
+
+      &__link svg {
+         width: 130px;
+         height: 60px;
+      }
+
+      &__link:hover svg {
+         opacity: 0.6;
+      }
+   }
+}
+
+@media screen and (min-width: 1024px) {
+   .logo {
+      grid-column: auto;
+      grid-row: span 2;
+
+      &__link {
+         padding-top: 50px;
+         padding-bottom: 6px;
+      }
+   }
+}
+
+@media screen and (min-width: 1440px) {
+   .logo {
+      &__link {
+         padding-left: 0;
+      }
+   }
+}

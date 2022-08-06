@@ -1,0 +1,108 @@
+.slider {
+   padding-top: 50px;
+
+   &__img {
+      background-image: url(../img/main/slider-mob.jpg);
+
+      @media screen and (min-width:420px) {
+         background-image: url(../img/main/slider-tablet.jpg);
+      }
+
+      background-repeat: no-repeat;
+      background-position: center;
+
+      min-height: 500px;
+      width: 100%;
+
+   }
+
+   &__card {
+      margin-bottom: 30px;
+      background: #F5F5FA;
+      border-radius: 12px;
+   }
+
+   &__description {
+      padding: 0 30px;
+
+
+      &-text {
+         font-weight: 700;
+         font-size: 30px;
+         line-height: 37px;
+      }
+
+      &-name {
+         font-weight: 700;
+         font-size: 16px;
+         line-height: 20px;
+         color: #B3B3BA;
+         padding: 30px 0 5px;
+      }
+
+      &-job {
+         font-size: 14px;
+         line-height: 22px;
+         color: #B3B3BA;
+         padding-bottom: 30px;
+      }
+   }
+}
+
+@media screen and (min-width: 767px) {
+   .slider {
+      padding-top: 110px;
+
+      &__description {
+         &-text {
+            font-size: 38px;
+            line-height: 46px;
+         }
+      }
+
+      &__card {
+         max-width: 650px;
+         margin-left: auto;
+         margin-right: auto;
+      }
+   }
+}
+
+@media screen and (min-width: 1024px) {
+   .slider {
+      &__card {
+         display: flex;
+         max-width: fit-content;
+         margin-left: 0;
+         margin-right: 0;
+      }
+
+      &__img {
+         background-image: url(../img/main/slider-tablet_hd.jpg);
+         width: 400px;
+         min-height: auto;
+      }
+
+      &__description {
+         width: 55.752%;
+         padding: 30px;
+      }
+   }
+}
+
+@media screen and (min-width: 1440px) {
+   .slider {
+      &__img {
+         background-image: url(../img/main/slider-desk.jpg);
+         background-position: top center;
+      }
+
+      &__description {
+         width: 69%;
+
+         &-job {
+            padding: 0;
+         }
+      }
+   }
+}

@@ -1,0 +1,24 @@
+.title-link {
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 17px;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   color: #24A3FF;
+   display: inline-flex;
+   vertical-align: auto;
+   padding-bottom: 10px;
+
+   &:hover {
+      opacity: 0.6;
+   }
+
+   &::after {
+      content: '';
+      width: 12px;
+      height: 12px;
+      background: url(../img/main/advantage-arrow.svg);
+      background-repeat: no-repeat;
+      margin-left: 5px;
+   }
+}
