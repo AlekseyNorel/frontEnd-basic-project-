@@ -33,7 +33,6 @@
       font-size: 19px;
       line-height: 30px;
       color: #FFFFFF;
-      padding-bottom: 30px;
    }
 }
 
@@ -41,10 +40,6 @@
    .idea {
       &__title {
          padding-top: 60px;
-      }
-
-      &__text {
-         padding-bottom: 60px;
       }
 
       &__skroll {
@@ -58,7 +53,6 @@
       &__wrap {
          display: flex;
          justify-content: space-between;
-         padding-bottom: 60px;
       }
 
       &__skroll {

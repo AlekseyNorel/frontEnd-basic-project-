@@ -43,6 +43,10 @@
       &:hover {
          border-color: #FFFFFF;
       }
+
+      &.active {
+         border-color: #F0145A;
+      }
    }
 }
 

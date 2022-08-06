@@ -2,6 +2,7 @@
    position: relative;
 
    &__title {
+      padding-top: 30px;
 
       &-header {
          font-weight: 700;
@@ -79,6 +80,8 @@
 @media screen and (min-width: 767px) {
    .advantage {
       &__title {
+         padding-top: 60px;
+
          &-header {
             font-size: 38px;
             line-height: 46px;
@@ -93,7 +96,7 @@
          &-wrap {
             display: flex;
             flex-wrap: wrap;
-            margin: -30px;
+            margin: 0 -30px;
          }
       }
    }
