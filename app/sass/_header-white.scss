@@ -1,0 +1,22 @@
+.header-white {
+
+   &__top {
+      background: #F5F5FA;
+   }
+
+   &__lang-item {
+      color: #B3B3BA;
+
+      &:hover {
+         background: #F5F5FA;
+      }
+
+      &.en-red {
+         color: #FFFFFF;
+      }
+   }
+
+   &__tel {
+      color: #B3B3BA;
+   }
+}
