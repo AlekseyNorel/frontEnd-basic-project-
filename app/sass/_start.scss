@@ -25,6 +25,15 @@
    }
 }
 
+@media screen and (min-width: 1440px) {
+   .container {
+      &__e-commerce {
+         max-width: 1080px;
+         padding: 0;
+      }
+   }
+}
+
 a {
    text-decoration: none;
 }
