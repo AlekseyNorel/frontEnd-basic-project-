@@ -19,4 +19,22 @@
    &__tel {
       color: #B3B3BA;
    }
+
+   &__address {
+      &-link {
+         color: #B3B3BA;
+      }
+   }
+
+   &__near-logo {
+      color: #323264;
+   }
+}
+
+@media screen and (min-width: 767px) {
+   .header-white {
+      &__top {
+         background: transparent;
+      }
+   }
 }
