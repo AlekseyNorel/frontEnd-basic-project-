@@ -607,6 +607,7 @@ li {
     grid-row: 1/2;
     justify-self: end;
     padding-right: 60px;
+    padding-left: 0;
   }
 }
 
