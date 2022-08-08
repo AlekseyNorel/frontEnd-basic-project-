@@ -370,6 +370,20 @@ template {
   min-width: 320px;
 }
 
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  margin: -1px;
+}
+
 .container {
   min-width: 320px;
   max-width: 1440px;
@@ -1267,6 +1281,17 @@ li {
   background: #F5F5FA;
 }
 
+.publications__btn {
+  margin-top: 30px;
+  padding-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .publications__link {
   padding-top: 30px;
   padding-bottom: 5px;
@@ -1599,6 +1624,10 @@ li {
   line-height: 30px;
 }
 
+.e-commerce-card__btn {
+  margin-top: 30px;
+}
+
 @media screen and (min-width: 767px) {
   .e-commerce-card {
     padding-top: 30px;
@@ -1624,7 +1653,6 @@ li {
           box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
   border-radius: 12px;
   padding: 18px 30px;
-  margin-top: 30px;
 }
 
 .btn-blue:hover {
@@ -1744,6 +1772,52 @@ li {
 @media screen and (min-width: 767px) {
   .header-white__top {
     background: transparent;
+  }
+}
+
+.publications-white__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 30px 0;
+}
+
+.publications-white__btn-wrap {
+  background: #E6E6F0;
+  border-radius: 12px;
+  padding: 2px;
+}
+
+.publications-white__btn-item {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #323264;
+  border-radius: 10px;
+  padding: 8px 30px 10px;
+}
+
+.publications-white__btn-item:hover {
+  background: #F5F5FA;
+}
+
+.publications-white__btn-item-active {
+  background: #FFFFFF;
+}
+
+@media screen and (min-width: 1024px) {
+  .publications-white__card-wrap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+  }
+  .publications-white__card {
+    width: 100%;
   }
 }
 

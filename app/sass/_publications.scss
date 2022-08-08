@@ -1,6 +1,13 @@
 .publications {
    background: #F5F5FA;
 
+   &__btn {
+      margin-top: 30px;
+      padding-bottom: 30px;
+      display: flex;
+      justify-content: center;
+   }
+
    &__link {
       padding-top: 30px;
       padding-bottom: 5px;
@@ -64,6 +71,7 @@
 
 @media screen and (min-width: 767px) {
    .publications {
+
       &__link {
          padding-bottom: 10px;
       }
