@@ -3,6 +3,11 @@
    margin-top: -30px;
    padding-top: 30px;
 
+   &.aboutUs {
+      margin-top: 0;
+      padding-top: 0;
+   }
+
    &__adress {
       text-align: center;
       display: flex;
@@ -82,6 +87,11 @@
    .footer {
       padding-top: 60px;
       padding-bottom: 30px;
+
+      &.aboutUs {
+         margin-top: 0;
+         padding-top: 0;
+      }
 
       &__wrap {
          display: grid;

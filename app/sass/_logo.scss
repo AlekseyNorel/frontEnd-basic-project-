@@ -7,6 +7,10 @@
       width: 70px;
       height: 33px;
    }
+
+   &__link:hover svg {
+      opacity: 0.6;
+   }
 }
 
 @media screen and (min-width: 767px) {
@@ -20,9 +24,6 @@
          height: 60px;
       }
 
-      &__link:hover svg {
-         opacity: 0.6;
-      }
    }
 }
 
